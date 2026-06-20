@@ -17,3 +17,11 @@
 # Local Codex working directories
 work/
 outputs/
+
+# Local environment variables
+.env.local
+.env.*.local
+
+# Frontend dependencies and builds
+node_modules/
+dist/
