@@ -101,11 +101,14 @@ button { color: inherit; }
 
 @media (max-width: 680px) {
   .header-copy { display: none; }
-  .workspace { display: block; overflow-y: auto; }
-  .sidebar { height: 52%; min-height: 420px; }
-  .sidebar-intro { padding-bottom: 14px; }
+  .workspace { display: flex; flex-direction: column; overflow-y: auto; }
+  .map-wrap { order: -1; height: 48vh; min-height: 330px; flex: 0 0 auto; }
+  .sidebar { height: auto; min-height: 430px; flex: 0 0 auto; }
+  .sidebar-intro { padding: 18px 22px 12px; }
   .sidebar-intro p { display: none; }
-  .sidebar h1 { font-size: 34px; }
-  .map-wrap { height: 58vh; }
+  .sidebar h1 { font-size: 32px; line-height: .96; margin-bottom: 0; }
+  .search-box { margin-left: 22px; margin-right: 22px; }
+  .filters { padding-left: 22px; padding-right: 22px; }
+  .map-note { left: 10px; right: 10px; bottom: 10px; justify-content: center; }
   .details-panel { position: fixed; left: 8px; right: 8px; top: 78px; bottom: 8px; width: auto; }
 }
