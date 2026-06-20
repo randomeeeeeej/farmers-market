@@ -19,6 +19,10 @@
 html, body, #root { height: 100%; margin: 0; }
 button, input, textarea { font: inherit; }
 button { color: inherit; }
+.error-screen { min-height: 100%; display: grid; place-content: center; justify-items: center; gap: 12px; padding: 30px; text-align: center; background: var(--cream); }
+.error-screen h1 { margin: 0; font-family: 'DM Serif Display'; font-size: 38px; font-weight: 400; color: var(--forest); }
+.error-screen p { margin: 0; color: var(--muted); }
+.error-screen button { margin-top: 8px; border: 0; border-radius: 9px; padding: 11px 16px; background: var(--forest); color: white; cursor: pointer; }
 
 .app-shell { height: 100%; overflow: hidden; background: var(--cream); }
 .topbar { height: 72px; display: flex; align-items: center; justify-content: space-between; padding: 0 30px; background: var(--paper); border-bottom: 1px solid #d9ded7; position: relative; z-index: 1001; }
