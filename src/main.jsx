@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import 'leaflet/dist/leaflet.css';
 import './styles.css';
